@@ -1,0 +1,61 @@
+1586161887
+=== RUN   TestBTree
+    TestBTree: btree_test.go:136: current time:2020-04-06 16:31:27.70528 +0800 CST m=+0.023323958
+--- PASS: TestBTree (0.02s)
+=== RUN   TestDeleteMin
+--- PASS: TestDeleteMin (0.00s)
+=== RUN   TestDeleteMax
+--- PASS: TestDeleteMax (0.00s)
+=== RUN   TestAscendRange
+--- PASS: TestAscendRange (0.00s)
+=== RUN   TestDescendRange
+--- PASS: TestDescendRange (0.00s)
+=== RUN   TestAscendLessThan
+--- PASS: TestAscendLessThan (0.00s)
+=== RUN   TestDescendLessOrEqual
+--- PASS: TestDescendLessOrEqual (0.00s)
+=== RUN   TestAscendGreaterOrEqual
+--- PASS: TestAscendGreaterOrEqual (0.00s)
+=== RUN   TestDescendGreaterThan
+--- PASS: TestDescendGreaterThan (0.00s)
+=== RUN   TestCloneConcurrentOperations
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 0
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 1
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 2001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 2001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 4001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 4001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 4001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 4001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 6001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:665: Starting new clone at 8001
+    TestCloneConcurrentOperations: btree_test.go:688: Starting equality checks on 32 trees
+    TestCloneConcurrentOperations: btree_test.go:694: Removing half from first half
+    TestCloneConcurrentOperations: btree_test.go:707: Checking all values again
+--- PASS: TestCloneConcurrentOperations (0.19s)
+=== RUN   ExampleBTree
+--- PASS: ExampleBTree (0.00s)
+PASS
+ok  	command-line-arguments	0.222s
